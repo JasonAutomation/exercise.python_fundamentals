@@ -1,14 +1,8 @@
-cache: pip
-install:
-  - pip install -r requirements.txt
-script:
-  - python tests.py
-calculator_test.py
-https://www.smartfile.com/blog/testing-python-with-travis-ci/
 language: python
-cache: pip
-install:
-  - pip install -r requirements.txt
-script:
-  - python calculator_test.py
+
+python -m unittest discover -s ./src/test/ -p '*_test.py'
+
+
+
+
 
