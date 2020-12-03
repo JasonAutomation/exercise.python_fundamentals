@@ -20,7 +20,11 @@ class StringManipulator(object):
         return None # TODO - Implement solution
 
     def get_first_word(self, string_to_fetch_from):
-        return None # TODO - Implement solution
+        first_word = string_to_fetch_from.split()[0]
+        return first_word
+
+
+
 
     def get_second_word(self, string_to_fetch_from):
         return None # TODO - Implement solution
