@@ -1,7 +1,7 @@
 # Created by Leon Hunter at 3:57 PM 10/23/2020
 class StringManipulator(object):
     def get_hello_world(self):
-        return "hello world"
+        return "Hello World"
        # TODO - Implement solution
 
     def concatenate(self, value_to_be_added_to, value_to_add):
