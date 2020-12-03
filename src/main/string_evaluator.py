@@ -11,10 +11,16 @@ class StringManipulator(object):
         return None # TODO - Implement solution
 
     def substring_exclusive(self, string_to_fetch_from, starting_index, ending_index):
-        return None # TODO - Implement solution
+        return string_to_fetch_from[starting_index + 1:ending_index]
+        # TODO - Implement solution
 
     def compare(self, first_value, second_value):
-        return None # TODO - Implement solution
+        if first_value == second_value:
+            return True
+        else:
+            return False
+
+        # TODO - Implement solution
 
     def get_middle_character(self, string_to_fetch_from):
         return None # TODO - Implement solution
