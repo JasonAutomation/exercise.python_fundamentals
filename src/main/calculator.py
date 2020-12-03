@@ -6,6 +6,7 @@ class Calculator(object):
         return None # TODO - Implement solution
 
     def subtract(self, a, b):
+        return a - b
         return None # TODO - Implement solution
 
     def multiply(self, a, b):
