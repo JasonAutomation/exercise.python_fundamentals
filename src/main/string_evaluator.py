@@ -23,12 +23,15 @@ class StringManipulator(object):
         # TODO - Implement solution
 
     def get_middle_character(self, string_to_fetch_from):
-        return None # TODO - Implement solution
+        midchar =len(string_to_fetch_from)/2
+        return.string_to_fetch_from[midchar]
+
+        # TODO - Implement solution
+
 
     def get_first_word(self, string_to_fetch_from):
         first_word = string_to_fetch_from.split()[0]
         return first_word
-
 
 
 
